@@ -14,14 +14,14 @@ https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
 
 ## Explanation of columns in en-wikipedia_traffic_200712-202008.csv
 
-Year: The year the API call is referring to
-Month: The month the API call is referring to
-pagecount_all_views: The total views from desktop and mobile pagecount API calls
-pagecount_desktop_views: The amount of desktop views from the pagecount API call
-pagecount_mobile_views: The amount of mobile views from the pagecount API call
-pageview_all_views: The total views from desktop and mobile pageview API calls
-pageview_desktop_views: The amount of desktop views from the pageview API call
-pageview_mobile_views: The amount of mobile views from the pageview API call
+Year: The year the API call is referring to <br />  
+Month: The month the API call is referring to <br />  
+pagecount_all_views: The total views from desktop and mobile pagecount API calls <br />  
+pagecount_desktop_views: The amount of desktop views from the pagecount API call <br />  
+pagecount_mobile_views: The amount of mobile views from the pagecount API call <br />  
+pageview_all_views: The total views from desktop and mobile pageview API calls <br />  
+pageview_desktop_views: The amount of desktop views from the pageview API call <br />  
+pageview_mobile_views: The amount of mobile views from the pageview API call  <br />  
 
 ### Extra information
 Data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
