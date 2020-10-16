@@ -5,4 +5,4 @@ All source code is under the GNU General Public License version 3.0;
 Any media files are under Creative Commons Attribution-ShareAlike 3.0.
 
 
-(first_graph.png)
+![alt text](https://github.com/MatthewCodes/data-512/blob/main/data-512-a2/first_graph.png)
