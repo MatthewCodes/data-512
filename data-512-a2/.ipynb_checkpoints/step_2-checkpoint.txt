@@ -1,0 +1,12 @@
+Imagine you are one of the Google data scientists who maintains the Perspective API. If you wanted to improve the model or the API itself to make it work better for any of these purposes, how should they go about doing that?
+
+In order to imporve this model I would adapt it to use some modern practices in the NLP space such as Transformers. If I didn't want to incorporate a new structure to the model I would just do transfer learning from one of the most succuessful NLP models out. Leveraging the weights of the new model and tuning them one the data that was used to train the Perspective API model.
+
+What are some kinds of hostile speech that would be difficult to accurately detect using the approach used to train the Perspective API models? 
+
+This model would not be great at detecting sarcastic comments. From what I saw the comments that it could detect were obviously hostile but I don't think it would flag a passive aggressive or sarcastic comment. An example would be "Nooooo of courssssse you're supposed to do that what else would you dooooooo?"
+
+What are some other contexts or applications where you would expect the Perspective API to perform particularly well, or particularly poorly? Why?
+
+I would expect this to do very well in filtering out certain content from a social media thread or timeline. For example, if somone wanted to stop seeing "Election" on their feed this model should be able to identify that word and different variations of it. The reason why I say, it looks like it would perform well is because of the commnet slider demo application. That application is able to find climate change related comments and display them, so it should be able to do the opposite as well.
+
