@@ -5,10 +5,12 @@ Date: 10/16/2020
 ## GOAL
 ### For this assignment, the goal is to identify potential sources of bias in a corpus of human-annotated data, and describe some implications of those biases. 
 
-The corpus used is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who were discussing how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.For this repo I used the “toxicity” and “aggression” datasets.
+This project is centered around Wikipedia's [Detox](https://meta.wikimedia.org/wiki/Research:Detox) research. In collaboration with Jigsaw, Wikimedia Research is developing tools for automated detection of toxic comments using machine learning models. These models allow us to analyze the dynamics and impact of comment-level harassment in talk page discussions at scale. They may also be used to build tools to visualize and possibly intervene in the problem. An example of one of these tools include is [Perspective API](https://github.com/conversationai/perspectiveapi).
+
 
 ## Data
 ***
+The corpus used is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who were discussing how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.For this repo I used the “toxicity” and “aggression” datasets. <br>
 The toxicity and aggression datasets can be downloaded from figshare [here](https://figshare.com/projects/Wikipedia_Talk/16731)
 
 ## Questions to detect bias
