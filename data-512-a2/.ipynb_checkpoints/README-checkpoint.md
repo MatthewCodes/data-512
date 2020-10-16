@@ -27,6 +27,8 @@ To detect bias in this dataset I wanted to answer the following questions:
 
 4. There is an even distribution of answers from the age and education demographics.
 
+The reason why I chose the first two questions was because I wanted to make sure the dataset had some variation and wanted to see if it was in line with the idea that as people get older they become more sensitive. The reason why I asked the third question is because I would expect the toxic comment count and aggressive comment count to be linearly correlated. The fourth question was asked to find out if the dataset was bias towards a certain age or education level.
+
 ## LICENSE
 ***
 To align with the access policy of the data found here: https://foundation.wikimedia.org/wiki/Open_access_policy <br>
